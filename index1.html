@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechCalc - Premium Calculators</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <i class="fas fa-calculator"></i>
+            <h1>TechCalc</h1>
+          </div>
+          <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Precision Calculators for Every Need</h2>
+          <p>
+            From basic arithmetic to advanced scientific calculations, we have
+            the perfect calculator for students, professionals, and enthusiasts.
+          </p>
+          <a href="#" class="btn">Explore Our Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Calculator Range</h2>
+          <p>
+            Discover our wide selection of high-quality calculators designed for
+            various applications and user needs.
+          </p>
+        </div>
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <h3>Basic Calculators</h3>
+            <p>
+              Perfect for everyday calculations, budgeting, and simple math
+              tasks.
+            </p>
+            <div class="price">$12.99 - $29.99</div>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Large, easy-to-read display</li>
+              <li><i class="fas fa-check"></i> Solar and battery powered</li>
+              <li><i class="fas fa-check"></i> Compact and portable design</li>
+              <li><i class="fas fa-check"></i> Memory functions</li>
+            </ul>
+            <a href="#" class="btn">View Details</a>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-square-root-alt"></i>
+            </div>
+            <h3>Scientific Calculators</h3>
+            <p>
+              Advanced functions for students, engineers, and scientific
+              professionals.
+            </p>
+            <div class="price">$24.99 - $59.99</div>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> 300+ scientific functions</li>
+              <li><i class="fas fa-check"></i> Multi-line display</li>
+              <li><i class="fas fa-check"></i> Programmable capabilities</li>
+              <li><i class="fas fa-check"></i> Equation solving</li>
+            </ul>
+            <a href="#" class="btn">View Details</a>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h3>Graphing Calculators</h3>
+            <p>
+              Powerful tools for visualizing mathematical concepts and data
+              analysis.
+            </p>
+            <div class="price">$89.99 - $149.99</div>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> High-resolution display</li>
+              <li><i class="fas fa-check"></i> Color graphing capabilities</li>
+              <li><i class="fas fa-check"></i> Computer connectivity</li>
+              <li><i class="fas fa-check"></i> Exam compliant</li>
+            </ul>
+            <a href="#" class="btn">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>About TechCalc</h3>
+            <p>
+              We've been providing high-quality calculators to students,
+              professionals, and businesses for over 15 years. Our products are
+              known for their reliability, accuracy, and durability.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Calculation Street,
+              Mathville
+            </p>
+            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@techcalc.com</p>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 TechCalc. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      document
+        .querySelector(".mobile-menu")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
